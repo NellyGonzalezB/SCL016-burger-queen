@@ -18,6 +18,7 @@ const Waiter = () => {
   const deleteBtn = (id) => {
     console.log(id)
     const filtItem = cart.filter((product) => product.id !== id )
+  
     console.log(filtItem)
     addToCart(filtItem)
   }
