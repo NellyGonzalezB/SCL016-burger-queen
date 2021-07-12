@@ -1,45 +1,44 @@
+/* eslint-disable react/jsx-filename-extension */
 import './App.css';
-import React from "react";
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
-} from "react-router-dom";
+  Route,
+} from 'react-router-dom';
 
-import Header from './components/Header.jsx';
-import Login from './components/Login.jsx';
-import './App.css'
-import Waiter from './components/Waiter.jsx';
-import Drinks from './components/Drinks.jsx';
+import Header from './components/Header';
+import Login from './components/Login';
+
+import Waiter from './components/Waiter';
+import Drinks from './components/Drinks';
 import HeaderKitchen from './components/HeaderKitchen';
 import Kitchen from './components/Kitchen';
 
-const  App = () => {
-  return (
-    <Router>
-     <div className='background'>
-       <Switch>
-        <Route path ='/' exact>
-          <Login/>
+const App = () => (
+  <Router>
+    <div className="background">
+      <Switch>
+        <Route path="/" exact>
+          <Login />
         </Route>
-        <Route path = '/lunch'>
+        <Route path="/lunch">
           <Header />
-          <div className='waiter-container'>
-          <Waiter />
+          <div className="waiter-container">
+            <Waiter />
           </div>
         </Route>
-        <Route path = '/drinks'>
+        <Route path="/drinks">
           <Header />
           <Drinks />
         </Route>
-        <Route path = '/kitchen'>
+        <Route path="/kitchen">
           <HeaderKitchen />
           <Kitchen />
         </Route>
-    </Switch>
+      </Switch>
     </div>
-    </Router>
-  );
-}
+  </Router>
+);
 
 export default App;
