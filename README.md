@@ -1,5 +1,6 @@
 # Burger Queen
 
+![korean-logo](https://i.ibb.co/cDnjQYh/korean-logo.png)
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
@@ -32,7 +33,6 @@ los que trabajes.
 
 ## 2. Korean Restaurant
 
-![korean-logo](https://i.ibb.co/cDnjQYh/korean-logo.png)
 ![](https://i.ibb.co/wSZQjrY/korean-1.png)
 ![](https://i.ibb.co/smsCMsw/korean2.png)
 ![](https://i.ibb.co/Sw5n4Lq/korean3.png)
